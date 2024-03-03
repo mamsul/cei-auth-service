@@ -6,7 +6,7 @@ const users = require("./lib/users.json");
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT ?? 8080;
 const TOKEN = process.env.TOKEN;
 const EXPIRED = process.env.EXPIRED;
 
