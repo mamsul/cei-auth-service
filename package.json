@@ -4,8 +4,8 @@
   "description": "Auth Service",
   "main": "app.js",
   "scripts": {
-    "start": "node ./api/app.js",
-    "dev": "nodemon ./api/app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "MIT",
